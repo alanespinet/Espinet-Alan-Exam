@@ -32,7 +32,7 @@ div.cell:nth-child(even){
 }
 
 .black:hover{
-  background-color: blue;
+  background-color: green;
 }
 
 .white{
@@ -40,7 +40,7 @@ div.cell:nth-child(even){
 }
 
 .white:hover{
-  background-color: green;
+  background-color: blue;
 }
 
 .board_row{
