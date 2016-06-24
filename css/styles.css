@@ -1,0 +1,54 @@
+body{
+  background-color: #555;
+}
+
+#board{
+  background-color: black;
+  width: 128px;
+  height: 128px;
+}
+
+.rowSize{
+  width: 1200px;
+  height: 100px;
+}
+
+#alternate_row div{
+  height: 100px;
+  border: 1px solid black;
+}
+
+div.cell:nth-child(odd){
+  background-color: black;
+}
+
+
+div.cell:nth-child(even){
+  background-color: white;
+}
+
+.black{
+  background-color: black;
+}
+
+.black:hover{
+  background-color: blue;
+}
+
+.white{
+  background-color: white;
+}
+
+.white:hover{
+  background-color: green;
+}
+
+.board_row{
+  width: 1200px;
+  height: 100px;
+}
+
+.board_cell{
+  height: 100px;
+  border: 1px solid black;
+}
